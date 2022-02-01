@@ -19,7 +19,7 @@ class AddContact extends React.Component {
       <div className="ui main">
         <h3>Add Contact</h3>
         <form className="ui form" onSubmit={this.add}>
-          <div className="field">
+          <div className="ui field">
             <label>Name</label>
             <input
               type="text"
@@ -31,7 +31,7 @@ class AddContact extends React.Component {
               required
             />
           </div>
-          <div className="field">
+          <div className="ui field">
             <label>Email</label>
             <input
               type="email"

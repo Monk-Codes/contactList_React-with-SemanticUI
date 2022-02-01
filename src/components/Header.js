@@ -2,9 +2,9 @@ import React from 'react';
 
 function Header() {
   return (
-      <div className='ui menu'>
-      <div className="ui container center">
-            <h2>Contact List</h2>
+      <div className='ui text menu'>
+      <div className=" ui item">
+            <h2 style={{color:"orange"}}>Contact List</h2>
         </div>
     </div>
   )
