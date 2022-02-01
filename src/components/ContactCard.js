@@ -6,15 +6,15 @@ function ContactCard(props) {
   return (
     <div className="ui item">
       <img src={user} alt="user" className="ui avatar image" />
-      <div className=" ui content">
+      <div className=" ui content two column grid">
         <div className="ui large header">{name}</div>
         <div className="ui small header">{email}</div>
         <i
-          className="trash alternate outline icon"
+          className="trash alternate outline icon row"
           onClick={() => props.clickHandle(id)}
-          style={{ color: "red", alignItems: "center" }}
-        />
-      </div>
+          style={{ color: "red"}}
+          />
+          </div>
     </div>
   );
 }
